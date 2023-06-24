@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+
 main {
   display: flex;
   flex-direction: column;
@@ -147,37 +149,43 @@ header {
   margin: 32px;
 }
 
-#about-me section {
+
+#about-me section{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  
 }
 
-.about-me-title {
+.about-me-title{
   color: whitesmoke;
+  ;
 }
+
 
 .about-me-text {
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   color: whitesmoke;
   text-align: left;
   margin-top: 16px;
   max-width: 500px;
+
 }
 
 @media screen and (max-width: 1200px) {
+
   .profile-pic {
     width: 200px;
     height: 200px;
-    margin-top: 20vh;
+    margin-top: 20vh; 
   }
 
-  #about-me section {
+  #about-me section{
     margin: 5%;
     align-items: center;
   }
-
+  
   #about-me {
     flex-direction: column;
     justify-content: center;
@@ -185,7 +193,7 @@ header {
     margin: 16px;
   }
 
-  .about-me-text {
+  .about-me-text{
     font-size: 14px;
     text-align: left;
     padding-top: 16px;
