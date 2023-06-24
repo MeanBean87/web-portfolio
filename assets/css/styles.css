@@ -57,16 +57,13 @@ header {
   background-color: #131515;
 }
 
-.nav-item {
-}
-
 .nav-item a {
   color: whitesmoke;
   text-decoration: none;
   font-size: 14.832px;
 }
 
-.navbar {
+.nav-bar {
   display: flex;
   min-height: 70px;
   justify-content: space-between;
@@ -133,11 +130,71 @@ header {
   font-size: 14.832px;
 }
 
-@media screen and (max-width: 768px) {
+#about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 200px;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 7%;
+  border: 2px solid #131515;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin: 32px;
+}
+
+#about-me section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-me-title {
+  color: whitesmoke;
+}
+
+.about-me-text {
+  font-family: "Karla", sans-serif;
+  color: whitesmoke;
+  text-align: left;
+  margin-top: 16px;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    margin-top: 20vh;
+  }
+
+  #about-me section {
+    margin: 5%;
+    align-items: center;
+  }
+
+  #about-me {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+  }
+
+  .about-me-text {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 16px;
+  }
+
   .nav-title {
     font-size: 20px;
   }
-  
+
   #contact-me h3 {
     font-size: 16px;
     padding-right: 2rem;
