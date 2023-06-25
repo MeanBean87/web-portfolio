@@ -6,8 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
 main {
   display: flex;
   flex-direction: column;
@@ -68,6 +66,7 @@ header {
 .nav-bar {
   display: flex;
   min-height: 70px;
+  min-width: auto;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
@@ -178,12 +177,14 @@ header {
   .profile-pic {
     width: 200px;
     height: 200px;
-    margin-top: 20vh; 
+    margin-top: 15vh; 
+
   }
 
   #about-me section{
     margin: 5%;
     align-items: center;
+    justify-content: ;
   }
   
   #about-me {
