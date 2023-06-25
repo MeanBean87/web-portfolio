@@ -81,12 +81,14 @@ How to address hover effects on mobile applications using media queries:
  
 ```
 
-## Credits
+## Author Info
 
 This web portfolio is created and maintained by meanbean87. You can find the original repository at [https://github.com/meanbean87/web-portfolio](https://github.com/meanbean87/web-portfolio)
 
 * [LinkedIn](https://www.linkedin.com/in/michael-mattingly-5580b1280/)
 * [Github](https://github.com/MeanBean87)
+
+## Credits
 
 I would like to extend my gratitude to the following contributors for their valuable contributions to this project:
 
