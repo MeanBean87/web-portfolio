@@ -1,123 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Mattingly's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Mattingly's Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,500&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- Header section -->
-    <header>
-        <nav class="nav-bar">
-            <h1 class="nav-title">Michael Mattingly's Portfolio</h1>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#about-me">About</a></li>
-                <li class="nav-item"><a href="#projects">Projects</a></li>
-                <li class="nav-item"><a href="#contact-me">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-    <main>
-            <section id="about-me">
-            <img class="profile-pic" src="./assets/images/michael.jpeg" alt="Profile picture of Michael Mattingly">
-            <section>
-                <h2 class="about-me-title">"Hey, my name is Mike Mattingly."</h2>
-                <p class="about-me-text">&emsp;"I am a student at the University of California, Berkeley, currently
-                    enrolled in the Full Stack Web Development Bootcamp. My studies focus on HTML, CSS, JavaScript,
-                    Node.js, Express.js, React.js, and MongoDB. Additionally, I am actively learning how to utilize Git
-                    and GitHub for version control and collaborative development with fellow programmers. I am genuinely
-                    enthusiastic about expanding my knowledge in web development and embarking on a rewarding career as
-                    a web developer."</p>
-                <hr>
-                <p class="about-me-text">&emsp;"Prior to this program, I gained experience in coding through Python,
-                    Java, and SQL. I also
-                    worked as a robotics deployment engineer, where I had the opportunity to work with various warehouse
-                    automation technologies."</p>
-                <hr>
-                <p class="about-me-text">&emsp;"I look forward to further honing my skills in web development and
-                    leveraging my diverse
-                    background to contribute to exciting projects in the future."</p>
-                </p>
-            </section>
-        </section>
+  <!-- Header section -->
+  <header>
+    <nav class="nav-bar">
+      <h1 class="nav-title">Michael Mattingly's Portfolio</h1>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#about-me">About</a></li>
+        <li class="nav-item"><a href="#projects">Projects</a></li>
+        <li class="nav-item"><a href="#contact-me">Contact</a></li>
+      </ul>
+      <div class="hamburger" aria-label="Hamburger icon.">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
 
-        
-        <section id="projects">
-            <h2>Projects</h2>
-            <figure class="project-1">
-                <h3>"My First Deployed Webpage."</h3>
-                <a href="https://meanbean87.github.io/prework-study-guide/" target="_blank">
+  <main>
 
-                    <img class="project-1-img" src="./assets/images/project-screenshots/prework-study-guide.png"
-                        alt="Screenshot of a website that has various notes about coding." /></a>
-            </figure>
-            <section class="other-projects">
-                <figure class="project">
-                    <h3>"A simple SPA with React Router, that generates barcodes and contains info on programming hand-scanners."</h3>
-                    <a href="https://meanbean87.github.io/de-cheatsheet-react/" target="_blank">
-                        <img class="project-img"
-                            src="./assets/images/project-screenshots/deployment-cheatsheet-react.png"
-                            alt="Screenshot of a website that has a navbar and barcode generator program." /></a>
-                </figure>
-                <figure class="project">
-                    <h3>"A very basic 2-player dice web game."</h3>
-                    <a href="https://meanbean87.github.io/Dice-Webgame/" target="_blank">
-                        <img class="project-img" src="./assets/images/project-screenshots/dice-webgame.png"
-                            alt="A photo of a web game called Dice Casino, that gives a user the chance to roll dice against another player." /></a>
-                </figure>
-                <figure class="project">
-                    <h3>"My first portfolio project."</h3>
-                    <a href="https://meanbean87.github.io/personal-webpage/" target="_blank">
-                        <img class="project-img" src="./assets/images/project-screenshots/my-first-portfolio.png"
-                            alt="A photo that states: Hey, I'm Michael. A student Full Stack Web Developer." /></a>
-                </figure>
-                <figure class="project">
-                    <h3>"A coding drill, where the students at the bootcamp where asked to build a webpage in one hour."
-                    </h3>
-                    <a href="https://meanbean87.github.io/" target="_blank">
-                        <img class="project-img" src="./assets/images/project-screenshots/1-hour-personal-webpage.png"
-                            alt="Screenshot of a website that has various notes about coding." /></a>
-                </figure>
-            </section>
-        </section>
-    </main>
-    <footer id="contact-me">
-        <h3>Contact me:</h3>
-        <section class="icons-section">
-            <figure class="icon-container">
-                <a href="mailto:mikeamatt@hotmail.com:">
-                    <img class="footer-icon" src="./assets/images/icons/envelope-fill.svg" alt="Envelope icon">
-                </a>
-                <figcaption>Email</figcaption>
-            </figure>
+    <!-- About Me Section -->
+    <section id="about-me">
+      <img class="profile-pic" src="./assets/images/michael.jpeg" alt="Profile picture of Michael Mattingly">
+      <section>
+        <h2 class="about-me-title">"Hey, my name is Mike Mattingly."</h2>
+        <p class="about-me-text">&emsp;"I am a student at the University of California, Berkeley, currently
+          enrolled in the Full Stack Web Development Bootcamp. My studies focus on HTML, CSS, JavaScript,
+          Node.js, Express.js, React.js, and MongoDB. Additionally, I am actively learning how to utilize Git
+          and GitHub for version control and collaborative development with fellow programmers. I am genuinely
+          enthusiastic about expanding my knowledge in web development and embarking on a rewarding career as
+          a web developer."</p>
+        <hr>
+        <p class="about-me-text">&emsp;"Prior to this program, I gained experience in coding through Python,
+          Java, and SQL. I also
+          worked as a robotics deployment engineer, where I had the opportunity to work with various warehouse
+          automation technologies."</p>
+        <hr>
+        <p class="about-me-text">&emsp;"I look forward to further honing my skills in web development and
+          leveraging my diverse
+          background to contribute to exciting projects in the future."</p>
+        </p>
+      </section>
+    </section>
 
-            <figure class="icon-container">
-                <a href="https://github.com/MeanBean87" target="_blank">
-                    <img class="footer-icon" src="./assets/images/icons/github.svg" alt="Github Icon">
-                </a>
-                <figcaption>Github</figcaption>
-            </figure>
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <figure class="project-1">
+        <h3>"My First Deployed Webpage."</h3>
+        <a href="https://meanbean87.github.io/prework-study-guide/" target="_blank">
 
-            <figure class="icon-container">
-                <a href="https://www.linkedin.com/in/michael-mattingly-5580b1280/" target="_blank">
-                    <img src="./assets/images/icons/linkedin.svg" alt="LinkedIn Icon"></a>
-                <figcaption>LinkedIn</figcaption>
-            </figure>
-        </section>
-    </footer>
-    <script src="script.js"></script>
-</body>
+          <img class="project-1-img" src="./assets/images/project-screenshots/prework-study-guide.png"
+            alt="Screenshot of a website that has various notes about coding." /></a>
+      </figure>
+      <section class="other-projects">
+        <figure class="project">
+          <h3>"A simple SPA with React Router, that generates barcodes and contains info on programming
+            hand-scanners."</h3>
+          <a href="https://meanbean87.github.io/de-cheatsheet-react/" target="_blank">
+            <img class="project-img" src="./assets/images/project-screenshots/deployment-cheatsheet-react.png"
+              alt="Screenshot of a website that has a navbar and barcode generator program." /></a>
+        </figure>
+        <figure class="project">
+          <h3>"A very basic 2-player dice web game."</h3>
+          <a href="https://meanbean87.github.io/Dice-Webgame/" target="_blank">
+            <img class="project-img" src="./assets/images/project-screenshots/dice-webgame.png"
+              alt="A photo of a web game called Dice Casino, that gives a user the chance to roll dice against another player." /></a>
+        </figure>
+        <figure class="project">
+          <h3>"My first portfolio project."</h3>
+          <a href="https://meanbean87.github.io/personal-webpage/" target="_blank">
+            <img class="project-img" src="./assets/images/project-screenshots/my-first-portfolio.png"
+              alt="A photo that states: Hey, I'm Michael. A student Full Stack Web Developer." /></a>
+        </figure>
+        <figure class="project">
+          <h3>"A coding drill, where the students at the bootcamp where asked to build a webpage in one hour."
+          </h3>
+          <a href="https://meanbean87.github.io/" target="_blank">
+            <img class="project-img" src="./assets/images/project-screenshots/1-hour-personal-webpage.png"
+              alt="Screenshot of a website that has various notes about coding." /></a>
+        </figure>
+      </section>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="contact-me">
+    <h3>Contact me:</h3>
+    <section class="icons-section">
+
+      <!-- Email Icon -->
+      <figure class="icon-container">
+        <a href="mailto:mikeamatt@hotmail.com:">
+          <img class="footer-icon" src="./assets/images/icons/envelope-fill.svg" alt="Email, contact me via email">
+        </a>
+        <figcaption>Email</figcaption>
+      </figure>
+
+      <!-- Github Icon -->
+      <figure class="icon-container">
+        <a href="https://github.com/MeanBean87" target="_blank">
+          <img class="footer-icon" src="./assets/images/icons/github.svg" alt="GitHub Logo, visit my GitHub profile">
+        </a>
+        <figcaption>Github</figcaption>
+      </figure>
+
+      <!-- LinkedIn Icon -->
+      <figure class="icon-container">
+        <a href="https://www.linkedin.com/in/michael-mattingly-5580b1280/" target="_blank">
+          <img class="footer-icon" src="./assets/images/icons/linkedin.svg" alt="LinkedIn Logo, connect on LinkedIn"></a>
+        <figcaption>LinkedIn</figcaption>
+      </figure>
+      
+    </section>
+  </footer>
+
 
 </html>
