@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+
 main {
   display: flex;
   flex-direction: column;
@@ -17,6 +19,16 @@ main {
   -webkit-animation: AnimationName 34s ease infinite;
   -moz-animation: AnimationName 34s ease infinite;
   animation: AnimationName 34s ease infinite;
+}
+
+hr {
+  background: none;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 1px;
+  border: none;
+  margin: -1px 0;
 }
 
 @-webkit-keyframes AnimationName {
@@ -66,7 +78,7 @@ header {
 .nav-bar {
   display: flex;
   min-height: 70px;
-  min-width: auto;
+  min-width: 100vw;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
@@ -90,14 +102,98 @@ header {
   cursor: pointer;
 }
 
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects h2 {
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+
+.project-1 h3 {
+  font-family: "Karla", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  margin: 16px;
+  font-size: 16px;
+}
+
+.project-1 a {
+  flex-basis: 100%;
+  width: 90vw;
+}
+
+.project-1 img {
+  width: 400px;
+  height: 400px;
+  border-radius: 7px;
+  border: 2px solid #131515;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.other-projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  box-sizing: none;
+  padding-bottom: 100px;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  padding-top: 2rem;
+}
+
+.project h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "karla", sans-serif;
+  color: whitesmoke;
+  text-align: left;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  padding: 16px;
+}
+
+.project-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 7px;
+  border: 2px solid #131515;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
 #contact-me {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 100%;
   height: 70px;
-  padding: 1rem;
+  width: 100vw;
   color: whitesmoke;
   background-color: #131515;
 }
@@ -148,45 +244,41 @@ header {
   margin: 32px;
 }
 
-
-#about-me section{
+#about-me section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  
 }
 
-.about-me-title{
+.about-me-title {
   color: whitesmoke;
-  ;
 }
-
 
 .about-me-text {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   color: whitesmoke;
   text-align: left;
   margin-top: 16px;
   max-width: 500px;
-
 }
 
 @media screen and (max-width: 1200px) {
-
+  main {
+    width: 100vw;
+  }
   .profile-pic {
     width: 200px;
     height: 200px;
-    margin-top: 15vh; 
-
+    margin-top: 15vh;
   }
 
-  #about-me section{
+  #about-me section {
     margin: 5%;
     align-items: center;
     justify-content: ;
   }
-  
+
   #about-me {
     flex-direction: column;
     justify-content: center;
@@ -194,7 +286,7 @@ header {
     margin: 16px;
   }
 
-  .about-me-text{
+  .about-me-text {
     font-size: 14px;
     text-align: left;
     padding-top: 16px;
@@ -241,7 +333,7 @@ header {
     gap: 0;
     flex-direction: column;
     background-color: #131515;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     transition: 0.3s;
   }
@@ -252,5 +344,15 @@ header {
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .project-1 img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .project-img {
+    width: 200px;
+    height: 200px;
   }
 }
