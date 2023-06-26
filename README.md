@@ -9,13 +9,15 @@
 | JavaScript      | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 | Git             |                                    [https://git-scm.com/](https://git-scm.com/)                                    |
 
-[![HTML](https://img.shields.io/badge/HTML-5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/CSS-3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 
 ## Description
 
 [Visit the Deployed Site](https://meanbean87.github.io/web-portfolio/)
 
-This is a web portfolio created by [meanbean87](https://github.com/meanbean87) to showcase their skills, projects, and provide information about themselves. The portfolio is designed with a modern and visually appealing interface, utilizing HTML, CSS, and JavaScript.
+This is a web portfolio created by Michael Mattingly-[Github](https://github.com/meanbean87) to showcase their skills, projects, and provide information about themselves. The portfolio is designed with a modern and visually appealing interface, utilizing HTML, CSS, and JavaScript.
+
+## Demo
 
 ![Site Langing Page](./assets/images/landing-page.png)
 
@@ -27,6 +29,7 @@ This is a web portfolio created by [meanbean87](https://github.com/meanbean87) t
 - **Projects**: The Projects section highlights the individual's notable projects, including descriptions, images, and links to deployed pages.
 - **Contact Information**: The Contact Me section provides contact details, allowing visitors to get in touch with the individual easily.
 
+[![HTML](https://img.shields.io/badge/HTML-5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/CSS-3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 ## Usage
 
 To view the web portfolio, simply visit [https://meanbean87.github.io/web-portfolio/](https://meanbean87.github.io/web-portfolio/) in your web browser. From there, you can navigate through the different sections using the navigation bar.
@@ -90,15 +93,15 @@ This web portfolio is created and maintained by meanbean87. You can find the ori
 
 ## Credits
 
-I would like to extend my gratitude to the following contributors for their valuable contributions to this project:
+I would like to extend my heartfelt gratitude to the following contributors for their invaluable contributions to this project:
 
-Kevin Powell [Github](https://github.com/kevin-powell) - [Dealing with hover on mobile tutorial.](https://www.youtube.com/watch?v=uuluAyw9AI0)
+- **Kevin Powell** ([GitHub](https://github.com/kevin-powell)): Kevin provided a fantastic tutorial on dealing with hover on mobile. You can find the tutorial [here](https://www.youtube.com/watch?v=uuluAyw9AI0).
 
-Miguel Z. Nunez: [Github](https://github.com/miguelznunez) - [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript.](https://www.youtube.com/watch?v=flItyHiDm7E)
+- **Miguel Z. Nunez** ([GitHub](https://github.com/miguelznunez)): Miguel created an excellent tutorial on how to create a responsive hamburger menu with HTML, CSS, and JavaScript. You can check out the tutorial [here](https://www.youtube.com/watch?v=flItyHiDm7E).
 
 This project utilizes icons from Bootstrap Icons.
 
-- Bootstrap Icons: [https://icons.getbootstrap.com](https://icons.getbootstrap.com)
+- **Bootstrap Icons**: [https://icons.getbootstrap.com](https://icons.getbootstrap.com)
 
 ## License
 
