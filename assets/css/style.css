@@ -21,37 +21,19 @@ main {
 }
 
 @-webkit-keyframes GradientAnimation {
-  0% {
-    background-position: 93% 0%;
-  }
-  50% {
-    background-position: 0% 100%;
-  }
-  100% {
-    background-position: 93% 0%;
-  }
+  0% {background-position: 93% 0%;}
+  50% {background-position: 0% 100%;}
+  100% {background-position: 93% 0%;}
 }
 @-moz-keyframes GradientAnimation {
-  0% {
-    background-position: 93% 0%;
-  }
-  50% {
-    background-position: 0% 100%;
-  }
-  100% {
-    background-position: 93% 0%;
-  }
+  0% {background-position: 93% 0%;}
+  50% {background-position: 0% 100%;}
+  100% {background-position: 93% 0%;}
 }
 @keyframes GradientAnimation {
-  0% {
-    background-position: 93% 0%;
-  }
-  50% {
-    background-position: 0% 100%;
-  }
-  100% {
-    background-position: 93% 0%;
-  }
+  0% {background-position: 93% 0%;}
+  50% {background-position: 0% 100%;}
+  100% {background-position: 93% 0%;}
 }
 
 /* this causes hr elements to be invisible */
