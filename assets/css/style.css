@@ -76,7 +76,7 @@ header {
   font-size: 14.832px;
 }
 
-nav {
+.nav-bar {
   display: flex;
   min-height: 70px;
   min-width: 100vw;
@@ -85,7 +85,7 @@ nav {
   padding: 0 24px;
 }
 
-nav ul {
+.nav-menu {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -93,7 +93,7 @@ nav ul {
   padding-right: 16px;
 }
 
-nav h1 {
+.nav-title {
   color: #f5f5f5;
   text-decoration: none;
   font-size: 24px;
@@ -130,12 +130,12 @@ nav h1 {
   margin: 32px;
 }
 
-section h2 {
+.about-me-title {
   color: #f5f5f5;
   font-family: "Karla", sans-serif;
 }
 
-section p {
+.about-me-text {
   font-family: "Karla", sans-serif;
   color: #f5f5f5;
   text-align: left;
@@ -175,7 +175,7 @@ section p {
   font-size: 16px;
 }
 
-.project-1 img {
+.project-1-img {
   width: 400px;
   height: 400px;
   border-radius: 7px;
@@ -241,27 +241,27 @@ section p {
   padding-right: 3rem;
 }
 
-footer section {
+.icons-section {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
-footer section figure {
+.icon-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0.5rem;
 }
 
-footer section figure img {
+.icon-container img {
   width: 24px;
   height: 24px;
   filter: invert(1);
 }
 
-footer section figure figcaption {
+.icon-container figcaption {
   font-size: 14.832px;
 }
 
@@ -273,15 +273,15 @@ footer section figure figcaption {
   }
 
   /* Header Styles */
-  nav {
+  .nav-bar {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
-    background-color: #131515
+    background-color: #131515;
   }
 
-  nav h1 {
+  .nav-title {
     font-size: 20px;
   }
 
@@ -311,7 +311,7 @@ footer section figure figcaption {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  nav ul {
+  .nav-menu {
     position: fixed;
     left: -1000%;
     top: 70px;
@@ -327,13 +327,13 @@ footer section figure figcaption {
     margin: 16px;
   }
 
-  nav ul.active {
+  .nav-menu.active {
     left: 0;
     padding: 0;
   }
 
   /* About Me Styles */
-  #about-me section {
+  .about-me {
     margin: 5%;
     align-items: center;
   }
@@ -345,7 +345,7 @@ footer section figure figcaption {
     margin: 16px;
   }
 
-  section p {
+  .about-me-text {
     font-size: 14px;
     text-align: left;
     padding-top: 16px;
