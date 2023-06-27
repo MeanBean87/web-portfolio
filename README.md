@@ -99,9 +99,10 @@ I would like to extend my heartfelt gratitude to the following contributors for 
 
 - **Miguel Z. Nunez** ([GitHub](https://github.com/miguelznunez)): Miguel created an excellent tutorial on how to create a responsive hamburger menu with HTML, CSS, and JavaScript. You can check out the tutorial [here](https://www.youtube.com/watch?v=flItyHiDm7E).
 
-This project utilizes icons from Bootstrap Icons.
+This project utilizes icons from Bootstrap and Uxwing.
 
 - **Bootstrap Icons**: [https://icons.getbootstrap.com](https://icons.getbootstrap.com)
+- **Uxwing Icons**: [https://uxwing.com/](https://uxwing.com/)
 
 ## License
 
